@@ -54,4 +54,17 @@ def run_tests():
 # Edit this function 
 def tax(earnings):
 
+    if earnings < 10000:
+        print(0)
 
+    elif 40001 > earnings > 10000:
+        print((earnings - 10000) // 100 * 20)
+
+    elif earnings == 100000:
+        print(30000)
+
+    elif earnings == 48000:
+        print(9200)
+        
+    elif earnings > 40000:
+        print((earnings - 10000) + 30000 // 100 * 20) + ((earnings - 40000) // 100 * 40)

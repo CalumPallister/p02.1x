@@ -53,3 +53,14 @@ def run_tests():
 # Edit this function
 def truth_table(a, b, c):
 
+    if a + b + c == 0:
+        print(0)
+
+    elif a + b + c == 1:
+        print(1)
+
+    elif a + b + c == 2:
+        print(0)
+
+    elif a + b + c == 3:
+        print(1)
